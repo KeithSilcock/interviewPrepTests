@@ -3,6 +3,11 @@
 //capitals are not checked
 
 function checkIfStringIsPermutaitonOfOther(string1, string2) {
+  //validation checks
+  if (string1.length !== string2.length) {
+    return false;
+  }
+
   //store both strings in hashtable with counts of each letter
   const hash1 = {};
   const hash2 = {};
