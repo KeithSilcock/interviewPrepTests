@@ -43,7 +43,6 @@ function urlifyString2(inputString, charToSwap, valueToSwap) {
 
   //remove last white space
   const lastChars = outputString.slice(-3);
-  debugger;
   if (lastChars === valueToSwap) {
     outputString = outputString.slice(0, -3);
   }
